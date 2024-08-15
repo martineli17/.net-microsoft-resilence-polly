@@ -1,9 +1,9 @@
-# Microsoft.Resilence Package
-O pacote Microsoft.Resilence é destinado para criar e gerenciar políticas de tratativas de exceção que podem ocorrer durante o processamento de algum fluxo.
+# Microsoft.Extensions.Resilience Package
+O pacote Microsoft.Extensions.Resilience é destinado para criar e gerenciar políticas de tratativas de exceção que podem ocorrer durante o processamento de algum fluxo.
 Internamente, ela utiliza o pacote Polly, que é bastante conhecido e consolidado para realizar essas configurações.
 
 ## Funcionamento
-O pacote Microsoft.Resilence permite que sejam criadas pipelines de políticas e que a mesma seja adicionada via Dependency Injection, facilitando a sua utilização dentro da aplicação. 
+O pacote Microsoft.Extensions.Resilience permite que sejam criadas pipelines de políticas e que a mesma seja adicionada via Dependency Injection, facilitando a sua utilização dentro da aplicação. 
 Além disso, é mantido a independência do gerenciamento de estado de cada política/pipeline.
 
 ## Exemplo
